@@ -10,11 +10,11 @@
 
 String fireStatus = "";                                                     // led status received from firebase
 
-int led = 2;                                                               
+int led = 3;                                                               
 
 void setup() {
 
-  Serial.begin(9600);
+  Serial.begin(10500);
 
   delay(1000);
 
@@ -58,7 +58,7 @@ void loop() {
 
     Serial.println("Led Turned ON");                 
 
-    digitalWrite(2, HIGH);                                                         // make output led ON
+    digitalWrite(3, HIGH);                                                         // make output led ON
 
   }
 
@@ -66,7 +66,7 @@ void loop() {
 
     Serial.println("Led Turned OFF");
 
-    digitalWrite(2, LOW);                                                         // make output led OFF
+    digitalWrite(3, LOW);                                                         // make output led OFF
 
   }
 
