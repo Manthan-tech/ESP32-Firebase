@@ -67,5 +67,6 @@ StringZ = String(yaw);
 Firebase.setString("Roll/Value",stringX);
 Firebase.setString("Pitch/Value",stringY);
 Firebase.setString("Yaw/Value",stringZ);
+Serial.print("Delete this line");
 delay(900);            
 }
